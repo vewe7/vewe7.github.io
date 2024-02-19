@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anki: Quick Start Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding: 20px 0;
+            background-color: #fff;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .step, .introduction {
+            padding: 20px;
+            padding-bottom: 40px;
+            border-top: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+        }
+        .introduction {
+            padding: 20px 100px 20px 20px;
+        }
+        .step-content {
+            flex-grow: 1;
+        }
+        .step h2 {
+            margin-top: 0;
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .section-header {
+            margin: 20px;
+        }
+        p {
+            margin: 0;
+            color: #666;
+            padding-right: 60px;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+        .subtitle {
+            position: absolute;
+            bottom: 10px; /* Adjust as needed */
+            left: 10px; /* Adjust as needed */
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+        .step img {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <img src="assets/Anki-icon.svg" alt="Anki logo">
+        </div>
+        <h1>Anki: Quick Start Guide</h1>
+    </header>
+    <div class="introduction">
+        <div class="step-content">
+            <h2>Introduction</h2>
+            <p>Anki is a free and powerful tool for studying with flashcards using spaced repetition.
+                Spaced repetition is a method which shows newer or harder content more frequently, while content which is older or easier is shown less frequently. 
+                Anki is known to be especially popular for medical students or language learning. However, any student, in any area of study, can benefit from using Anki 
+                to efficiently commit information to long-term memory. This guide will explain the steps necessary to set up the app and to integrate it into a daily study routine. 
+            </p>
+            <h3>Requirements</h3>
+            <p>
+                In order to run Anki, you will need a personal computer with a recent version of Windows, macOS, or Linux. For specific version requirements, refer to the following list:
+            </p>
+                <ul>
+                    <li>Windows 10 or 11 (64 bit)</li>
+                    <li>macOS 10.13.4 or later</li>
+                    <li>A recent Intel/AMD Linux distro (64 bit)</li>
+                </ul>
+            <p>
+                This guide is written for Anki Qt6, which is the recommended variant for most users. 
+            </p>
+            
+
+        </div>
+    </div>
+    <hr>
+    <section>
+        <h2 class="section-header">Set Up</h2>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 1: Install Anki</h2>
+                <p><b>1.1: </b>Download the installer for the latest version of Anki Qt6 for your operating system from the <a href="https://apps.ankiweb.net/#download">Anki download page</a>. 
+                    <b>1.2: </b>Run the installer. You will be prompted to choose a destination folder. Choosing a folder is optional. If you are unsure, press "Install" to continue with the default destination. Wait for the program to finish installing. You may close the installer when you see "Completed".</p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step1.png" alt="Anki Download Page">
+                <div class="subtitle"><b>(1.1)</b> Download Page</div>
+            </div>
+        </div>
+        <hr>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 2: Open Anki</h2>
+                <p>Open the installation of Anki which you have just installed. You should see a window with the main interface for Anki, as seen in the adjacent image.
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step2.png" alt="Anki Interface">
+                <div class="subtitle"><b>(2)</b> Anki Window</div>
+            </div>
+        </div>
+        <hr>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 3: Create a Deck</h2>
+                <p>A deck is a collection of flashcards. You may choose to create a separate deck per subject, or create a single deck for all of your flashcards. 
+                    To begin, create a deck by pressing "Create Deck" at the bottom of the window. You will be prompted to enter a name for your deck. Enter an appropriate name for the deck. You will be able to change it later. 
+                    After creating your deck, you should see it listed under "Deck". 
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step3.webp" alt="Create Deck Interface">
+                <div class="subtitle"><b>(3)</b> Create Deck</div>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 4: Add a Card</h2>
+                <p>
+                    Press the "Add" button at the top of the window. A new window will pop up. The most important functions are labeled in the adjacent image. 
+                    First, note the "Type" function (1). Make sure the card type is set to "Basic". The "Basic" type is the most similar to a traditional flashcard.
+                    Next, select the deck which you created in the previous step (2). Then, enter the content of your card. For a basic card, enter a question or definition 
+                    in the "Front" section (3). Enter the answer or associated term in the "Back" section (4). Finally, press "Add" (5) to create the card. 
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step4.webp" alt="Add Card Window">
+                <div class="subtitle"><b>(4)</b> Add a New Card</div>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 5: Add More Cards</h2>
+                <p>
+                    Repeat Step 4 whenever you encounter a new term or idea which you wish to commit to your memory. This step should be performed whenever you engage with new content which you intend to memorize (e.g. notes from a lecture or a book). 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="section-header">Study Your Deck</h2>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 6: Start Studying a Deck</h2>
+                <p>
+                    Choose a deck and click on it. Ideally, you should check your deck(s) every day for new terms to review. 
+                    You should see a window displaying how many cards are in "New", "Learning", or "Review". Anki will automatically set the status of a card based on your performance. 
+                    Press "Study Now" to begin a session. 
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step6.webp" alt="Deck Study Now">
+                <div class="subtitle"><b>(6)</b> Opening a Deck</div>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 7: Recall</h2>
+                <p>
+                    Anki will show you cards which you are due to study. For each card, you will see its front content. 
+                    Try to recall the associated answer or term. When you recall it, or fail to recall it, press either the "Show Answer" button or the spacebar to show the answer.
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step7.webp" alt="Card Front">
+                <div class="subtitle"><b>(7)</b> Card Front</div>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 8: Record Your Performance</h2>
+                <p>
+                    You should now see the answer for the card, along with a set of choices at the bottom of the window. 
+                    If you completely failed to recall the card, press "Again". If you took a very long time to recall the answer, or made a
+                    minor mistake in your answer, choose "Hard". If you took a reasonable amount of time to recall the answer, choose "Good". 
+                    If you recalled the answer very fast or instantly, choose "Easy". 
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step8.webp" alt="Card Back">
+                <div class="subtitle"><b>(8)</b> Card Back</div>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 9: Finish the Session</h2>
+                <p>
+                    You will see a message when you run out of cards to review. At this point, you have successfully studied this deck for the day.
+                    Ideally, repeat steps 6-9 every day in order for spaced repetition to be effective. 
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step9.webp" alt="Deck Finished Screen">
+                <div class="subtitle"><b>(9)</b> Deck Finished</div>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-content">
+                <h2>Step 10: Change Options as Necessary (Optional)</h2>
+                <p>
+                    If you find that the number of cards you are reviewing per day or that the spacing between cards is ineffective, 
+                    you can adjust these options for a given deck. Find the deck you wish to configure, and hover over it with your cursor. 
+                    You should see a settings wheel to the right of the deck's name. Press the settings wheel and press "Options" to 
+                    change any intervals or limits as desired. 
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="assets/step10.webp" alt="Deck Options Button">
+                <div class="subtitle"><b>(10)</b> Deck Options</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
